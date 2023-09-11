@@ -11,7 +11,9 @@ export default {
 		extend: {
 			backgroundImage: {
 				'home-pattern': "url('/bg/home.png')",
-				'footer-texture': "url('/img/footer-texture.png')",
+				'faq-pattern': "url('/bg/faq.png')",
+				'gallery-pattern': "url('/bg/galleries.png')",
+				'acc-pattern': "url('/bg/acces.png')",
 			  }
 		},
 	},
