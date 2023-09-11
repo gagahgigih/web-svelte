@@ -1,16 +1,67 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	import Booking from "$lib/booking.svelte";
+	import Introduction from "$lib/introduction.svelte";
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout</li>
-			<li><code class="code">/src/app.postcss</code> - app wide css</li>
-			<li>
-				<code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents
-			</li>
-			<button class="btn text-5xl bg-primary-500 variant-filled-secondary">hallo </button>
-		</ul>
+	
+
+</script>
+<svelte:head>
+  <title>Gagah Gigih Studio</title>
+  <meta name="description" content="Self Studio Photo Terbaik di Pangkalan Bun" />
+  <meta name="keywords" content="Foto, Studio Foto, Pangkalan Bun">
+  <meta name="Gagah Gigih" content="Gagah Gigih Studio">
+</svelte:head>
+<div class="w-full h-full bg-cover bg-home-pattern bg-no-repeat bg-top bg-fixed p-8">
+	<div class="mx-auto container">
+		<div>
+			<div class="flex flex-col justify-center items-center gap-2">
+				<div>
+					<h1 class="h1 underline">Siapa Kami?</h1>
+				</div>
+				<Introduction />
+			</div>
+			<div class="flex flex-col justify-center items-center gap-6 mt-6">
+				<div>
+					<h1 class="h1 underline">Reservasi</h1>
+				</div>
+				<div class="flex gap-2">
+					<button class="btn btn-md variant-filled-primary text-white transition duration-300 ease-in-out hover:-translate-y-2 border-white border-2 shadow-md shadow-pink-500">
+						<a href="/">Booking disini</a>
+					</button>
+					<button class="btn btn-md variant-filled-primary text-white transition duration-300 ease-in-out hover:-translate-y-2 border-white border-2 shadow-md shadow-pink-500">
+						<a href="/">Lihat Harga</a>
+					</button>
+				</div>
+			</div>
+			<div class="flex flex-col justify-center items-center gap-6 mt-6">
+				<div>
+					<h1 class="h1 underline">Informasi Lain</h1>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-4 gap-2 lg:gap-6">
+					<button class="btn btn-md variant-filled-secondary border-black shadow-md shadow-tertiary-500 border-2 text-white transition  duration-300 ease-in-out hover:-translate-y-2">
+						<a href="/gallery">Gallery</a>
+					</button>
+					<button class="btn btn-md variant-filled-secondary border-black shadow-md shadow-tertiary-500 border-2 text-white transition  duration-300 ease-in-out hover:-translate-y-2">
+						<a href="/faq">FAQ</a>
+					</button>
+					<button class="btn btn-md variant-filled-secondary border-black shadow-md shadow-tertiary-500 border-2 text-white transition  duration-300 ease-in-out hover:-translate-y-2">
+						<a href="/accessories">Aksesoris</a>
+					</button>
+					<button class="btn btn-md variant-filled-secondary border-black shadow-md shadow-tertiary-500 border-2 text-white transition  duration-300 ease-in-out hover:-translate-y-2">
+						<a href="/">Lokasi</a>
+					</button>
+					
+				</div>
+			</div>
+			<div class="flex flex-col justify-center items-center gap-6 mt-6">
+				<div>
+					<h1 class="h1 underline">Cara Booking</h1>
+				</div>
+				<div>
+					<Booking />
+				</div>
+			</div>	
+		</div>
 	</div>
 </div>
