@@ -18,31 +18,31 @@ export const myCustomTheme: CustomThemeConfig = {
 		"--on-tertiary": "0 0 0",
 		"--on-success": "0 0 0",
 		"--on-warning": "0 0 0",
-		"--on-error": "255 255 255",
+		"--on-error": "0 0 0",
 		"--on-surface": "0 0 0",
 		// =~= Theme Colors  =~=
-		// primary | #5D3891 
-		"--color-primary-50": "231 225 239", // #e7e1ef
-		"--color-primary-100": "223 215 233", // #dfd7e9
-		"--color-primary-200": "215 205 228", // #d7cde4
-		"--color-primary-300": "190 175 211", // #beafd3
-		"--color-primary-400": "142 116 178", // #8e74b2
-		"--color-primary-500": "93 56 145", // #5D3891
-		"--color-primary-600": "84 50 131", // #543283
-		"--color-primary-700": "70 42 109", // #462a6d
-		"--color-primary-800": "56 34 87", // #382257
-		"--color-primary-900": "46 27 71", // #2e1b47
-		// secondary | #F99417 
-		"--color-secondary-50": "254 239 220", // #feefdc
-		"--color-secondary-100": "254 234 209", // #feead1
-		"--color-secondary-200": "254 228 197", // #fee4c5
-		"--color-secondary-300": "253 212 162", // #fdd4a2
-		"--color-secondary-400": "251 180 93", // #fbb45d
-		"--color-secondary-500": "249 148 23", // #F99417
-		"--color-secondary-600": "224 133 21", // #e08515
-		"--color-secondary-700": "187 111 17", // #bb6f11
-		"--color-secondary-800": "149 89 14", // #95590e
-		"--color-secondary-900": "122 73 11", // #7a490b
+		// primary | #316280 
+		"--color-primary-50": "224 231 236", // #e0e7ec
+		"--color-primary-100": "214 224 230", // #d6e0e6
+		"--color-primary-200": "204 216 223", // #ccd8df
+		"--color-primary-300": "173 192 204", // #adc0cc
+		"--color-primary-400": "111 145 166", // #6f91a6
+		"--color-primary-500": "49 98 128", // #316280
+		"--color-primary-600": "44 88 115", // #2c5873
+		"--color-primary-700": "37 74 96", // #254a60
+		"--color-primary-800": "29 59 77", // #1d3b4d
+		"--color-primary-900": "24 48 63", // #18303f
+		// secondary | #FFC436 
+		"--color-secondary-50": "255 246 225", // #fff6e1
+		"--color-secondary-100": "255 243 215", // #fff3d7
+		"--color-secondary-200": "255 240 205", // #fff0cd
+		"--color-secondary-300": "255 231 175", // #ffe7af
+		"--color-secondary-400": "255 214 114", // #ffd672
+		"--color-secondary-500": "255 196 54", // #FFC436
+		"--color-secondary-600": "230 176 49", // #e6b031
+		"--color-secondary-700": "191 147 41", // #bf9329
+		"--color-secondary-800": "153 118 32", // #997620
+		"--color-secondary-900": "125 96 26", // #7d601a
 		// tertiary | #E8E2E2 
 		"--color-tertiary-50": "252 251 251", // #fcfbfb
 		"--color-tertiary-100": "250 249 249", // #faf9f9
@@ -54,39 +54,39 @@ export const myCustomTheme: CustomThemeConfig = {
 		"--color-tertiary-700": "174 170 170", // #aeaaaa
 		"--color-tertiary-800": "139 136 136", // #8b8888
 		"--color-tertiary-900": "114 111 111", // #726f6f
-		// success | #84cc16 
-		"--color-success-50": "237 247 220", // #edf7dc
-		"--color-success-100": "230 245 208", // #e6f5d0
-		"--color-success-200": "224 242 197", // #e0f2c5
-		"--color-success-300": "206 235 162", // #ceeba2
-		"--color-success-400": "169 219 92", // #a9db5c
-		"--color-success-500": "132 204 22", // #84cc16
-		"--color-success-600": "119 184 20", // #77b814
-		"--color-success-700": "99 153 17", // #639911
-		"--color-success-800": "79 122 13", // #4f7a0d
-		"--color-success-900": "65 100 11", // #41640b
-		// warning | #f50f32 
-		"--color-warning-50": "254 219 224", // #fedbe0
-		"--color-warning-100": "253 207 214", // #fdcfd6
-		"--color-warning-200": "253 195 204", // #fdc3cc
-		"--color-warning-300": "251 159 173", // #fb9fad
-		"--color-warning-400": "248 87 112", // #f85770
-		"--color-warning-500": "245 15 50", // #f50f32
-		"--color-warning-600": "221 14 45", // #dd0e2d
-		"--color-warning-700": "184 11 38", // #b80b26
-		"--color-warning-800": "147 9 30", // #93091e
-		"--color-warning-900": "120 7 25", // #780719
-		// error | #e8d611 
-		"--color-error-50": "252 249 219", // #fcf9db
-		"--color-error-100": "250 247 207", // #faf7cf
-		"--color-error-200": "249 245 196", // #f9f5c4
-		"--color-error-300": "246 239 160", // #f6efa0
-		"--color-error-400": "239 226 88", // #efe258
-		"--color-error-500": "232 214 17", // #e8d611
-		"--color-error-600": "209 193 15", // #d1c10f
-		"--color-error-700": "174 161 13", // #aea10d
-		"--color-error-800": "139 128 10", // #8b800a
-		"--color-error-900": "114 105 8", // #726908
+		// success | #F11A7B 
+		"--color-success-50": "253 221 235", // #fdddeb
+		"--color-success-100": "252 209 229", // #fcd1e5
+		"--color-success-200": "252 198 222", // #fcc6de
+		"--color-success-300": "249 163 202", // #f9a3ca
+		"--color-success-400": "245 95 163", // #f55fa3
+		"--color-success-500": "241 26 123", // #F11A7B
+		"--color-success-600": "217 23 111", // #d9176f
+		"--color-success-700": "181 20 92", // #b5145c
+		"--color-success-800": "145 16 74", // #91104a
+		"--color-success-900": "118 13 60", // #760d3c
+		// warning | #FBA1B7 
+		"--color-warning-50": "254 241 244", // #fef1f4
+		"--color-warning-100": "254 236 241", // #feecf1
+		"--color-warning-200": "254 232 237", // #fee8ed
+		"--color-warning-300": "253 217 226", // #fdd9e2
+		"--color-warning-400": "252 189 205", // #fcbdcd
+		"--color-warning-500": "251 161 183", // #FBA1B7
+		"--color-warning-600": "226 145 165", // #e291a5
+		"--color-warning-700": "188 121 137", // #bc7989
+		"--color-warning-800": "151 97 110", // #97616e
+		"--color-warning-900": "123 79 90", // #7b4f5a
+		// error | #DFDFDF 
+		"--color-error-50": "250 250 250", // #fafafa
+		"--color-error-100": "249 249 249", // #f9f9f9
+		"--color-error-200": "247 247 247", // #f7f7f7
+		"--color-error-300": "242 242 242", // #f2f2f2
+		"--color-error-400": "233 233 233", // #e9e9e9
+		"--color-error-500": "223 223 223", // #DFDFDF
+		"--color-error-600": "201 201 201", // #c9c9c9
+		"--color-error-700": "167 167 167", // #a7a7a7
+		"--color-error-800": "134 134 134", // #868686
+		"--color-error-900": "109 109 109", // #6d6d6d
 		// surface | #F5F5F5 
 		"--color-surface-50": "254 254 254", // #fefefe
 		"--color-surface-100": "253 253 253", // #fdfdfd
@@ -98,7 +98,6 @@ export const myCustomTheme: CustomThemeConfig = {
 		"--color-surface-700": "184 184 184", // #b8b8b8
 		"--color-surface-800": "147 147 147", // #939393
 		"--color-surface-900": "120 120 120", // #787878
-		
 		
 	}
 }

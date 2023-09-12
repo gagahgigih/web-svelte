@@ -16,7 +16,7 @@
 					<Avatar width="w-12" src="logo.png" />
 					<a href="/" class="transition duration-500 ease-in-out h3 hover:underline  text-white" >Home</a>
 					<a href="/gallery" class="transition duration-500 ease-in-out h3 hover:underline  text-white" >Gallery</a>
-					<a href="/" class="transition duration-500 ease-in-out h3 hover:underline  text-white" >Booking</a>
+					<a href="https://gagahgigih.youcanbook.me/" class="transition duration-500 ease-in-out h3 hover:underline  text-white" >Booking</a>
 				</div>
 		
 		
@@ -31,14 +31,17 @@
 						<p class="h3 text-white">Contact Us</p>
 					</div>
 					<div class="flex ">
-						<a href="/">
-							<img src="/svg/email.svg" alt="email" class="hover:-translate-y-2 transition duration-300 ease-in-out bg-tertiary-500 rounded-lg p-2 m-2 w-10" />
+						<a href= "mailto: cs@gagahgigih.site">
+							<img src="/svg/emails.svg" alt="email" class="hover:-translate-y-2 transition duration-300 ease-in-out bg-tertiary-500 rounded-lg p-2 m-2 w-10" />
 						</a>
-						<a href="/">
+						<a href="https://www.instagram.com/gagah_gigih/">
 							<img src="/svg/ig.svg" alt="instagram" class="hover:-translate-y-2 transition duration-300 bg-tertiary-500 rounded-lg p-2 m-2 w-10" />
 						</a>
-						<a href="/">
+						<a href="https://wa.me/6282137263180?text=Halo%20kak%20boleh%20bertanya%20sedikit?">
 							<img src="/svg/wa.svg" alt="whatssapp" class="hover:-translate-y-2 transition duration-300 bg-tertiary-500 rounded-lg p-2 m-2 w-10" />
+						</a>
+						<a href="https://www.youtube.com/MultimediaPIctures">
+							<img src="/svg/yt.svg" alt="youtube mp" class="hover:-translate-y-2 transition duration-300 bg-tertiary-500 rounded-lg p-2 m-2 w-10" />
 						</a>
 					</div>
 				</div>
