@@ -31,7 +31,7 @@
 						<a href="https://gagahgigih.youcanbook.me/">Booking disini ❗❗❗	</a>
 					</button>
 					<button class="btn btn-md variant-filled-primary text-white transition duration-300 ease-in-out hover:-translate-y-2 border-white border-2 shadow-md shadow-pink-500">
-						<a href="https://drive.google.com/drive/folders/1S9Kv5M9w15SS0DypQ0EJZ54T9RKK37VO?usp=sharing">Lihat Harga 💳</a>
+						<a href="https://drive.google.com/file/d/1rSndIDMq9e-u_5rmA11fAw6R6kzlB3KV/view?usp=sharing">Lihat Harga 💳</a>
 					</button>
 				</div>
 			</div>
